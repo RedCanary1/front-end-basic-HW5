@@ -1,0 +1,168 @@
+* { 
+    box-sizing: border-box;
+
+    html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+}
+
+
+/*----------My Styles---------*/
+
+.page-table{
+background: #FFFFFF;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.container a {
+    margin: 10px auto;
+}
+
+.header {
+    background: black;
+    text-align: center;
+}
+
+.header h1{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    color: aliceblue;
+    margin: 0 0 15px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+
+.main-table{
+    margin: 20px 0 0;
+    width: 100%;
+    border-style: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px #E4E4EF;
+}
+
+.main-table th,
+.main-table td {
+    border-top: 1px solid #E4E4EF;
+}
+
+.main-table th {
+    padding: 18px 16px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.center-txt {
+    text-align: center;
+}
+
+.main-table td {
+    padding: 8px 16px;
+    vertical-align: middle;
+}
+
+.main-table td p + p {
+    font-size: 12px;
+    line-height: 20px;
+    color: #808080;
+}
+
+.user, .email {
+    width: 400px;
+}
+
+.phone {
+    width: 158px;
+}
+
+.btn {
+    color: #bdbcdb;
+    background: #f8f9fb;
+    font-size: 12px;
+    padding: 8px 24px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.btn.primary {
+    color: #605dec;
+    background: #ededfe;
+}
+
+.btn.success {
+    color: #31aa27;
+    background: #ebf6eb;
+}
+
+.btn.warning {
+    color: #e99518;
+    background: #fff4e4;
+}
+
+.btn.error {
+    color: #f93232;
+    background: #fff0f0;
+}
+
+/*---------Mondriana Styles--*/
+
+.page-mondriana {
+    background: lightyellow;
+}
+
+.table-mondriana {
+    margin: 50px auto;
+}
+
+.table-mondriana td {
+    width: 100px;
+    height: 100px;
+    border: 4px solid red;
+}
